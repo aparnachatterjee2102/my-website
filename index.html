@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rex Technologies - Innovative Tech Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<script>
+    document.querySelector('.cta-button').addEventListener('click', function(event) {
+        event.preventDefault();
+        document.querySelector('#services').scrollIntoView({ behavior: 'smooth' });
+    });
+</script>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Rex Technologies Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Innovating Your Business with Cutting-Edge Technology</h1>
+        <p>We provide smart solutions that transform businesses.</p>
+        <a href="#services" class="cta-button">Explore Our Services</a>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Us</h2>
+        <p>We are a technology solutions provider focused on helping businesses grow with the latest technology.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <h3>IT Consulting</h3>
+            <p>Expert advice on your tech strategy to drive business success.</p>
+        </div>
+        <div class="service-item">
+            <h3>Cloud Solutions</h3>
+            <p>Modern cloud services to help streamline your operations.</p>
+        </div>
+        <div class="service-item">
+            <h3>Cybersecurity</h3>
+            <p>Advanced security solutions to protect your digital assets.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Rex Technologies. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

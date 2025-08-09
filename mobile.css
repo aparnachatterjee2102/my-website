@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .service-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cta-button {
+        width: 100%;
+    }
+}
